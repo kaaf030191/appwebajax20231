@@ -8,7 +8,7 @@
 </head>
 <body>
 	<input type="text" id="txtNumber">
-	<button type="button" onclick="sendRequest();">Calcular</button>
+	<button type="button" onclick="sendRequest('{{url('/')}}');">Calcular</button>
 	<span id="spanResult">...</span>
 
 	<script src="{{asset('viewResources/index/index.js')}}"></script>
